@@ -1,0 +1,9 @@
+.color{
+    background-color: #051419 !important;
+    color: white !important;
+}
+.size{
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+}
