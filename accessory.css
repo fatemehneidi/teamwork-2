@@ -21,3 +21,22 @@
 .color2{
     background-color: #a0adb4;
 }
+.flex{
+    width: 60%;
+}
+.my-3{
+    width: 250px;
+}
+.h5{
+    font-weight: 600;
+}
+.p-0{
+    list-style: none;
+    cursor: pointer;
+}
+.bg{
+    background-color: #7a3100 !important;
+}
+footer>*{
+    color: #a0adb4;
+}
