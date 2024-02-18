@@ -53,6 +53,13 @@
   transform: translateY(-1rem);
 }
 
+.six:hover {
+  transition: all linear 0.5s;
+  transform-origin: center;
+  transform: translateX(0.5rem);
+}
+
+
 .card-overlay {
   position: relative;
 }
