@@ -12,8 +12,8 @@
   align-content: flex-start;
 }
 
-.banner-content > * {
-    margin: 20px 5px;
+.cls {
+  background-color: #113946 !important;
 }
 
 .caro1 + img {
@@ -42,13 +42,13 @@
 }
 
 .caro1 img {
+  /* margin-top: 6rem; */
   width: 100%;
   height: 600px;
 }
 
 .one:hover {
   transition: all linear 0.5s;
-
   transform-origin: center;
   transform: translateY(-1rem);
 }
@@ -64,18 +64,17 @@
   transform: translate(-50%, -50%);
   opacity: 0;
   transition: opacity 0.3s;
-} */
-
-.card:hover .overlay-icons {
+}
+*/ .card:hover .overlay-icons {
   opacity: 1;
 }
 
 .one {
-  background-color: #A0ADB4;
+  background-color: #a0adb4;
 }
 
 .one:hover {
-background-color: #f8eddc;
+  background-color: #f8eddc;
 }
 
 .loc {
@@ -87,7 +86,7 @@ background-color: #f8eddc;
 }
 
 .form2 {
-  background-color: #EAD7BB;
+  background-color: #ead7bb;
 }
 
 .three {
@@ -95,18 +94,15 @@ background-color: #f8eddc;
 }
 
 .four {
-  background-color: #FFF2D8;
+  background-color: #fff2d8;
 }
 
 .five {
-  background-color:#113946 !important;
-  
+  background-color: #113946 !important;
 }
-
 
 .container {
   color: white;
- 
 }
 
 .fl {
@@ -124,28 +120,28 @@ background-color: #f8eddc;
 .p-0 {
   list-style: none;
   cursor: pointer;
-} 
+}
 
 @media (max-width: 1300px) {
-    .caro1 img {
-
-    width: 80%; 
+  .caro1 img {
+    width: 74%;
     height: 70%;
-    }
   }
+}
 
-  @media (max-width: 1300px) {
-    .navbar {
-
-    margin-right: 6rem; 
-
-    }
+@media (max-width: 1300px) {
+  .navbar {
+    margin-right: 6rem;
   }
-  
-  @media (max-width: 1300px) {
-    footer, .cards, .card, .form2 {
-     
-        width: 80%;
+}
 
-    }
+@media (max-width: 1300px) {
+  footer,
+  .cards,
+  .card,
+  .form2 {
+    width: 74%;
+    margin-right: 2rem;
+    margin-left: 1rem;
   }
+}
