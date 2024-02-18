@@ -1,0 +1,439 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img2{
+    width: 102px;
+    height: 102px;
+    top: 0px;
+
+}
+.img1{
+    position: absolute;
+   background-image: url(/S85fQAm.jpg);
+   background-position:center;
+   background-size:contain;
+   width: 100%;
+   height: 25rem;
+   top: 5rem;
+   z-index: 1;
+
+
+}
+/* @media(max-width:){} */
+
+ form{
+    position: absolute;
+    top: 57rem;
+    right: 20%;
+    width: 500px;
+    display: block;
+    
+}
+#t1{
+    position: absolute;
+    top:32rem ;
+    left: 5%;
+}
+    #card1{
+        position: absolute;
+        top: 37rem;
+        left: 2rem;
+    }
+    #card2{
+        position: absolute;
+        top: 37rem;
+        left: 46rem;
+
+    }
+    #card3{
+        position: absolute;
+        top: 37.5rem;
+        left:23rem;
+
+    }
+    #card4{
+        position: absolute;
+        top: 37rem;
+        left:70rem;
+    }
+    #t2{
+        position:absolute;
+        top: 32rem;
+        left: 39rem;
+    }
+    #t3{
+        position: absolute;
+        left: 1rem;
+        top: 7rem;
+        font-size: 1.2rem;
+    }
+    #join{
+        position: absolute;
+        top: 42rem;
+        left: 45%;
+    }
+    #m2{
+position: absolute;
+top: 130vh;
+left: 11vh;
+    }
+    /* .footer {
+
+    position: absolute;
+    top: 190vh;
+        background-color: #0000007d;
+        padding: 10px 0;
+        text-align: center;
+        width: 208vh;
+        height: 20ch;
+      } */
+footer{
+    position: absolute;
+    /* bottom: 0; */
+    top: 200vh;
+    width: 100%;
+    /* height: rem; */
+}
+#email{
+    position: absolute;
+    bottom: 10.5rem;
+    right:22.2rem ;
+}
+/* .h51{
+    display: inline;
+    width: 200px;
+    background-color: rgb(180, 83, 83);
+} */
+ 
+
+
+@media(max-width:1360px){
+
+    #card1{
+        position: absolute;
+        top: 37rem;
+        left: 2rem;
+    }
+    #card2{
+        position: absolute;
+        top: 37rem;
+        left: 40rem;
+
+    }
+    #card3{
+        position: absolute;
+        top: 37.5rem;
+        left:20rem;
+
+    }
+    #card4{
+        position: absolute;
+        top: 37rem;
+        left:60rem;
+    }
+    form{
+        position: absolute;
+        top: 54rem;
+        right: 7%;
+        width: 500px;
+        /* display: block; */
+        margin: 1px;
+        
+    }
+
+}
+@media(max-width:1182px){
+    #card1{
+        position: absolute;
+        top: 37rem;
+        left: 2rem;
+    }
+    #card2{
+        position: absolute;
+        top: 37rem;
+        left: 36rem;
+
+    }
+    #card3{
+        position: absolute;
+        top: 37.5rem;
+        left:19rem;
+
+    }
+    #card4{
+        position: absolute;
+        top: 37rem;
+        left:52rem;
+    } 
+}
+@media(max-width:1031px){
+    #card1{
+        position: absolute;
+        top: 37rem;
+        left: 2rem;
+    }
+    #card2{
+        position: absolute;
+        top: 37rem;
+        left: 33.2rem;
+
+    }
+    #card3{
+        position: absolute;
+        top: 37.5rem;
+        left:17.5rem;
+
+    }
+    #card4{
+        position: absolute;
+        top: 37rem;
+        left:48rem;
+    }
+}
+@media(max-width:973px){
+    /* svg{
+        width: 50px;
+    } */
+    #card1{
+        position: absolute;
+        top: 35rem;
+        left: 0.2rem;
+
+    }
+    #card2{
+        position: absolute;
+        top: 35rem;
+        left: 31rem;
+
+    }
+    #card3{
+        position: absolute;
+        top: 35rem;
+        left:16rem;
+
+    }
+    #card4{
+        position: absolute;
+        top: 35rem;
+        left:45rem;
+    }
+    form{
+        right: 0.1%;
+        top: 125%;
+    }
+
+}
+@media(max-width:893px){
+    #card1{
+        position: absolute;
+        top: 35rem;
+        left: 0.2rem;
+
+    }
+    #card2{
+        position: absolute;
+        top: 35rem;
+        left: 50%;
+
+    }
+    #card3{
+        position: absolute;
+        top: 48rem;
+        left:0.2rem;
+
+    }
+    #card4{
+        position: absolute;
+        top: 48rem;
+        left:50%;
+    }
+    form{
+        right: 0.2%;
+        top: 165vh;
+        width: 55vh;
+    }
+    #m2{
+        position: absolute;
+        top: 165vh;
+        left: 11vh;
+            }
+            footer{
+                position: absolute;
+                /* bottom: 0; */
+                top: 250vh;
+                width: 100%;
+                /* height: rem; */
+            }
+}
+@media(max-width:714px){
+    form{
+        width: 45vh;
+        right: 2vh;
+    }
+    #m2{
+        position: absolute;
+        top: 165vh;
+        left: 2vh;
+        
+            }
+            footer{
+                top: 270vh;
+            }
+}
+@media(max-width:568px){
+    #m2{
+        position: absolute;
+        top: 160vh;
+        left: 15vh;
+        } 
+
+    form{
+            position: absolute;
+            top: 270vh;
+            left: 1%;
+            width: 500px;
+            margin: 1px;   
+        }
+        footer{
+            top: 370vh;
+        }
+}
+@media(max-width:509px){
+    form{
+        position: absolute;
+        top: 280vh;
+        left: 1%;
+        width: 500px;
+        margin: 1px;   
+    }
+    footer{
+        top: 380vh;
+    }  
+}
+@media(max-width:466px){
+    form{
+        position: absolute;
+        top: 290vh;
+        left: 1%;
+        width: 500px;
+        margin: 1px;   
+    }
+    footer{
+        top: 390vh;
+    }
+}
+@media(max-width:441px){
+    #card1{
+        position: absolute;
+        top: 35rem;
+        left: 20vh;
+
+    }
+    #card2{
+        position: absolute;
+        top: 50rem;
+        left: 20vh;
+
+    }
+    #card3{
+        position: absolute;
+        top: 170%;
+        left:20vh;
+
+    }
+    #card4{
+        position: absolute;
+        top: 84rem;
+        left:20vh;
+    }
+    #m2{
+        position: absolute;
+        top: 260vh;
+        left: 15vh;
+        } 
+        form{
+            position: absolute;
+        top: 390vh;
+        left: 1%;
+        width: 500px;
+        margin: 1px;  
+        }
+        footer{
+            top: 490vh;
+        }
+    }
+
+    @media(max-width:426px)
+{
+    form{
+        position: absolute;
+    top: 411vh;
+    left: 1%;
+    width: 500px;
+    margin: 1px;  
+    }
+    footer{
+        top: 510vh;
+    }
+}
+@media(max-width:376px){
+    form{
+        position: absolute;
+    top: 430vh;
+    left: 1%;
+    width: 370px;
+    margin: 1px;  
+    }
+    footer{
+        top:530vh;
+    }
+}
+@media(max-width:321px){
+
+    #card1{
+        position: absolute;
+        top: 35rem;
+        left: 2vh;
+
+    }
+    #card2{
+        position: absolute;
+        top: 50rem;
+        left: 2vh;
+
+    }
+    #card3{
+        position: absolute;
+        top: 170%;
+        left:2vh;
+
+    }
+    #card4{
+        position: absolute;
+        top: 84rem;
+        left:2vh;
+    }
+
+    form{
+    position: absolute;
+    top: 430vh;
+    left: 1%;
+    width: 270px;
+    margin: 1px;  
+    }
+    footer{
+        top:535vh;
+    } 
+    #h51{
+        position: absolute;
+        left: 0px;
+    }
+    #m2{
+        position: absolute;
+        top: 260vh;
+        left: 1vh;
+        }  
+}
