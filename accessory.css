@@ -1,0 +1,42 @@
+.color{
+    background-color: #051419 !important;
+    color: white !important;
+}
+.size{
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+}
+.brown{
+    color: #051419;
+    text-shadow: 0 0 2px #7a3100;
+}
+.card{
+    background-color: #a0adb4;
+}
+.btn-color1{
+    background-color: #7a3100;
+    color: #a0adb4;
+}
+.color2{
+    background-color: #a0adb4;
+}
+.flex{
+    width: 60%;
+}
+.my-3{
+    width: 250px;
+}
+.h5{
+    font-weight: 600;
+}
+.p-0{
+    list-style: none;
+    cursor: pointer;
+}
+.bg{
+    background-color: #7a3100 !important;
+}
+footer>*{
+    color: #a0adb4;
+}
